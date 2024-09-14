@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7543594921:AAEb0Qs9usGggKGl0Q-iZ-JimDzJhtv01e0')
+bot = telebot.TeleBot('7140590840:AAHxBJ9E8MJVvnTZnwSDiJZZ_FWuuctu9Cw')
 
 # Admin user IDs
-admin_id = ["5894556386"]
+admin_id = ["5472843709"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -396,13 +396,13 @@ def welcome_plan(message):
 
 Vip 🌟 :
 -> Attack Time : 300 (S)
-> After Attack Limit : 10 sec
--> Concurrents Attack : 5
+> After Attack Limit : 10000000 sec
+-> Concurrents Attack : 50000000
 
 Pr-ice List💸 :
 Day-->80 Rs
 Week-->400 Rs
-Month-->1000 Rs
+Month-->1000000000000000000000000000000000000000000 Rs
 '''
     bot.reply_to(message, response)
 
